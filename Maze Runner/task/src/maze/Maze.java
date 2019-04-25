@@ -39,7 +39,7 @@ public class Maze {
                 if (map[i][j]==0) {
                     System.out.print("  ");
                 } else if (map[i][j]==1){
-                    System.out.print("██");
+                    System.out.print("XX");
                 }//\u2588
             }
             System.out.println();
