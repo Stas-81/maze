@@ -1,0 +1,530 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="StudySettings">
+    <StudyTaskManager>
+      <option name="VERSION" value="13" />
+      <option name="myUserTests">
+        <map />
+      </option>
+      <option name="course">
+        <HyperskillCourse>
+          <option name="authors">
+            <list />
+          </option>
+          <option name="courseMode" value="Study" />
+          <option name="courseType" value="Hyperskill" />
+          <option name="customPresentableName" />
+          <option name="description" value="Let the programme generate mazes and find a way out of them.&lt;br/&gt;&lt;br/&gt;Learn more at &lt;a href=&quot;https://hyperskill.org&quot;&gt;https://hyperskill.org/projects/47&lt;/a&gt;" />
+          <option name="fromZip" value="false" />
+          <option name="index" value="-1" />
+          <option name="language" value="JAVA" />
+          <option name="languageCode" value="en" />
+          <option name="name" value="Maze Runner" />
+          <option name="stages">
+            <list>
+              <HyperskillStage>
+                <option name="id" value="251" />
+                <option name="stepId" value="5393" />
+                <option name="title" value="Display a maze" />
+              </HyperskillStage>
+              <HyperskillStage>
+                <option name="id" value="252" />
+                <option name="stepId" value="5394" />
+                <option name="title" value="Generating mazes" />
+              </HyperskillStage>
+              <HyperskillStage>
+                <option name="id" value="253" />
+                <option name="stepId" value="5395" />
+                <option name="title" value="Saving and loading mazes" />
+              </HyperskillStage>
+              <HyperskillStage>
+                <option name="id" value="254" />
+                <option name="stepId" value="5396" />
+                <option name="title" value="Escape the maze" />
+              </HyperskillStage>
+            </list>
+          </option>
+          <option name="stepikChangeStatus" value="Up to date" />
+          <option name="taskToTopics">
+            <map>
+              <entry key="0">
+                <value>
+                  <list>
+                    <HyperskillTopic>
+                      <option name="id" value="259" />
+                      <option name="theoryId" value="3805" />
+                      <option name="title" value="IDE" />
+                    </HyperskillTopic>
+                    <HyperskillTopic>
+                      <option name="id" value="15" />
+                      <option name="theoryId" value="3500" />
+                      <option name="title" value="Introduction to Java" />
+                    </HyperskillTopic>
+                    <HyperskillTopic>
+                      <option name="id" value="147" />
+                      <option name="theoryId" value="3522" />
+                      <option name="title" value="Basic literals" />
+                    </HyperskillTopic>
+                    <HyperskillTopic>
+                      <option name="id" value="148" />
+                      <option name="theoryId" value="3521" />
+                      <option name="title" value="The first program" />
+                    </HyperskillTopic>
+                    <HyperskillTopic>
+                      <option name="id" value="193" />
+                      <option name="theoryId" value="3749" />
+                      <option name="title" value="Printing data" />
+                    </HyperskillTopic>
+                    <HyperskillTopic>
+                      <option name="id" value="14" />
+                      <option name="theoryId" value="3518" />
+                      <option name="title" value="Types and variables" />
+                    </HyperskillTopic>
+                    <HyperskillTopic>
+                      <option name="id" value="309" />
+                      <option name="theoryId" value="5035" />
+                      <option name="title" value="Primitive and reference types" />
+                    </HyperskillTopic>
+                    <HyperskillTopic>
+                      <option name="id" value="4" />
+                      <option name="theoryId" value="3511" />
+                      <option name="title" value="Array" />
+                    </HyperskillTopic>
+                  </list>
+                </value>
+              </entry>
+              <entry key="1">
+                <value>
+                  <list>
+                    <HyperskillTopic>
+                      <option name="id" value="130" />
+                      <option name="theoryId" value="3540" />
+                      <option name="title" value="Computer algorithms" />
+                    </HyperskillTopic>
+                    <HyperskillTopic>
+                      <option name="id" value="161" />
+                      <option name="theoryId" value="3532" />
+                      <option name="title" value="Sizes and ranges" />
+                    </HyperskillTopic>
+                    <HyperskillTopic>
+                      <option name="id" value="32" />
+                      <option name="theoryId" value="3510" />
+                      <option name="title" value="Type casting" />
+                    </HyperskillTopic>
+                    <HyperskillTopic>
+                      <option name="id" value="9" />
+                      <option name="theoryId" value="3523" />
+                      <option name="title" value="String" />
+                    </HyperskillTopic>
+                    <HyperskillTopic>
+                      <option name="id" value="94" />
+                      <option name="theoryId" value="3590" />
+                      <option name="title" value="Defining methods" />
+                    </HyperskillTopic>
+                    <HyperskillTopic>
+                      <option name="id" value="117" />
+                      <option name="theoryId" value="3614" />
+                      <option name="title" value="Introduction to OOP" />
+                    </HyperskillTopic>
+                    <HyperskillTopic>
+                      <option name="id" value="115" />
+                      <option name="theoryId" value="3618" />
+                      <option name="title" value="Defining classes" />
+                    </HyperskillTopic>
+                    <HyperskillTopic>
+                      <option name="id" value="96" />
+                      <option name="theoryId" value="4727" />
+                      <option name="title" value="Objects" />
+                    </HyperskillTopic>
+                    <HyperskillTopic>
+                      <option name="id" value="301" />
+                      <option name="theoryId" value="4910" />
+                      <option name="title" value="Random" />
+                    </HyperskillTopic>
+                  </list>
+                </value>
+              </entry>
+              <entry key="2">
+                <value>
+                  <list>
+                    <HyperskillTopic>
+                      <option name="id" value="60" />
+                      <option name="theoryId" value="3497" />
+                      <option name="title" value="What is an exception" />
+                    </HyperskillTopic>
+                    <HyperskillTopic>
+                      <option name="id" value="59" />
+                      <option name="theoryId" value="3570" />
+                      <option name="title" value="Hierarchy of exceptions" />
+                    </HyperskillTopic>
+                    <HyperskillTopic>
+                      <option name="id" value="65" />
+                      <option name="theoryId" value="3552" />
+                      <option name="title" value="Exception handling" />
+                    </HyperskillTopic>
+                    <HyperskillTopic>
+                      <option name="id" value="172" />
+                      <option name="theoryId" value="3635" />
+                      <option name="title" value="Files" />
+                    </HyperskillTopic>
+                    <HyperskillTopic>
+                      <option name="id" value="173" />
+                      <option name="theoryId" value="3636" />
+                      <option name="title" value="Reading files" />
+                    </HyperskillTopic>
+                    <HyperskillTopic>
+                      <option name="id" value="177" />
+                      <option name="theoryId" value="3652" />
+                      <option name="title" value="Writing files" />
+                    </HyperskillTopic>
+                    <HyperskillTopic>
+                      <option name="id" value="163" />
+                      <option name="theoryId" value="3536" />
+                      <option name="title" value="Errors in programs" />
+                    </HyperskillTopic>
+                    <HyperskillTopic>
+                      <option name="id" value="7" />
+                      <option name="theoryId" value="3621" />
+                      <option name="title" value="Package" />
+                    </HyperskillTopic>
+                    <HyperskillTopic>
+                      <option name="id" value="17" />
+                      <option name="theoryId" value="3535" />
+                      <option name="title" value="Constructor" />
+                    </HyperskillTopic>
+                    <HyperskillTopic>
+                      <option name="id" value="116" />
+                      <option name="theoryId" value="3495" />
+                      <option name="title" value="Instance methods" />
+                    </HyperskillTopic>
+                    <HyperskillTopic>
+                      <option name="id" value="28" />
+                      <option name="theoryId" value="3589" />
+                      <option name="title" value="Access modifiers" />
+                    </HyperskillTopic>
+                    <HyperskillTopic>
+                      <option name="id" value="24" />
+                      <option name="theoryId" value="3599" />
+                      <option name="title" value="Getters and setters" />
+                    </HyperskillTopic>
+                    <HyperskillTopic>
+                      <option name="id" value="8" />
+                      <option name="theoryId" value="3583" />
+                      <option name="title" value="Inheritance" />
+                    </HyperskillTopic>
+                  </list>
+                </value>
+              </entry>
+              <entry key="3">
+                <value>
+                  <list>
+                    <HyperskillTopic>
+                      <option name="id" value="167" />
+                      <option name="theoryId" value="3492" />
+                      <option name="title" value="Generic programming" />
+                    </HyperskillTopic>
+                    <HyperskillTopic>
+                      <option name="id" value="43" />
+                      <option name="theoryId" value="3591" />
+                      <option name="title" value="Basics of collections" />
+                    </HyperskillTopic>
+                    <HyperskillTopic>
+                      <option name="id" value="42" />
+                      <option name="theoryId" value="3581" />
+                      <option name="title" value="List" />
+                    </HyperskillTopic>
+                    <HyperskillTopic>
+                      <option name="id" value="45" />
+                      <option name="theoryId" value="3576" />
+                      <option name="title" value="Queue and Stack" />
+                    </HyperskillTopic>
+                    <HyperskillTopic>
+                      <option name="id" value="6" />
+                      <option name="theoryId" value="3595" />
+                      <option name="title" value="Boxing &amp;&amp; unboxing" />
+                    </HyperskillTopic>
+                  </list>
+                </value>
+              </entry>
+            </map>
+          </option>
+          <option name="hyperskillProject">
+            <HyperskillProject>
+              <option name="description" value="Let the programme generate mazes and find a way out of them." />
+              <option name="id" value="47" />
+              <option name="ideFiles" value="https://stepik.org/media/attachments/lesson/209893/additional_files.json" />
+              <option name="title" value="Maze Runner" />
+              <option name="useIde" value="true" />
+            </HyperskillProject>
+          </option>
+          <option name="items">
+            <list>
+              <FrameworkLesson>
+                <option name="currentTaskIndex" value="2" />
+                <option name="customPresentableName" />
+                <option name="id" value="0" />
+                <option name="index" value="1" />
+                <option name="name" value="Maze Runner" />
+                <option name="stepikChangeStatus" value="Up to date" />
+                <option name="updateDate" value="0" />
+                <option name="taskList">
+                  <list>
+                    <EduTask>
+                      <option name="customPresentableName" />
+                      <option name="descriptionFormat" value="HTML" />
+                      <option name="descriptionText" value="&lt;h2 style=&quot;text-align:center&quot;&gt;Description&lt;/h2&gt;&#10;&#10;&lt;p&gt;Implement the maze as a two-dimensional array of integers. If the value of an element is 1, it is a wall. If the value is 0, it is a pass.&lt;/p&gt;&#10;&#10;&lt;p&gt;Assume that a maze has only a single entrance and an exit.&lt;/p&gt;&#10;&#10;&lt;p&gt;To print the array, follow these two rules:&lt;/p&gt;&#10;&#10;&lt;ul&gt;&#10;    &lt;li&gt;to display a pass, use two space characters;&lt;/li&gt;&#10;    &lt;li&gt;to display a wall, use two block characters in a row (the same): █ (U+2588).&lt;/li&gt;&#10;&lt;/ul&gt;&#10;&#10;&lt;p&gt;At this stage, it does not matter which maze you display. The program may always output the same prepared maze or one of a set of prepared mazes. There is only one restriction: the array representing this maze should be greater than or equal to 20 x 20.&lt;/p&gt;&#10;&#10;&lt;h2 style=&quot;text-align:center&quot;&gt;Output example&lt;/h2&gt;&#10;&#10;&lt;p&gt;After starting, your program must output a maze and then stop.&lt;/p&gt;&#10;&#10;&lt;p&gt;&amp;nbsp;&lt;/p&gt;&#10;&#10;&lt;p style=&quot;text-align:center&quot;&gt;&lt;img alt=&quot;&quot; src=&quot;https://ucarecdn.com/a39bb6f7-63fe-43c2-b689-11ba6047243e/&quot; /&gt;&lt;/p&gt;&#10;&#10;&lt;p&gt;&amp;nbsp;&lt;/p&gt;&#10;&#10;&lt;p&gt;&lt;strong&gt;Note: &lt;/strong&gt;The walls of your maze can be another color.&lt;/p&gt;&#10;" />
+                      <option name="feedbackLink">
+                        <FeedbackLink>
+                          <option name="link" value="https://hyperskill.org/projects/47/stages/251/implement" />
+                          <option name="type" value="CUSTOM" />
+                        </FeedbackLink>
+                      </option>
+                      <option name="index" value="1" />
+                      <option name="name" value="Display a maze" />
+                      <option name="record" value="2" />
+                      <option name="status" value="Unchecked" />
+                      <option name="stepId" value="5393" />
+                      <option name="stepikChangeStatus" value="Up to date" />
+                      <option name="files">
+                        <map>
+                          <entry key="src/maze/Main.java">
+                            <value>
+                              <TaskFile>
+                                <option name="answerPlaceholders">
+                                  <list />
+                                </option>
+                                <option name="highlightErrors" value="false" />
+                                <option name="name" value="src/maze/Main.java" />
+                                <option name="text" value="package maze;&#10;&#10;public class Main {&#10;    public static void main(String[] args) {&#10;        System.out.println(&quot;Hello World!&quot;);&#10;    }&#10;}&#10;" />
+                                <option name="trackChanges" value="true" />
+                                <option name="trackLengths" value="true" />
+                                <option name="userCreated" value="false" />
+                                <option name="visible" value="true" />
+                              </TaskFile>
+                            </value>
+                          </entry>
+                          <entry key="test/MazeRunnerTest.java">
+                            <value>
+                              <TaskFile>
+                                <option name="answerPlaceholders">
+                                  <list />
+                                </option>
+                                <option name="highlightErrors" value="false" />
+                                <option name="name" value="test/MazeRunnerTest.java" />
+                                <option name="text" value="import maze.Main;&#10;import org.hyperskill.hstest.v4.stage.MainMethodTest;&#10;import org.hyperskill.hstest.v4.testcase.CheckResult;&#10;import org.hyperskill.hstest.v4.testcase.TestCase;&#10;&#10;import java.util.List;&#10;&#10;public class MazeRunnerTest extends MainMethodTest {&#10;&#10;    public MazeRunnerTest() throws Exception {&#10;        super(Main.class);&#10;    }&#10;&#10;    @Override&#10;    public List&lt;TestCase&gt; generateTestCases() {&#10;        return List.of(&#10;            new TestCase()&#10;        );&#10;    }&#10;&#10;    @Override&#10;    public CheckResult check(String reply, Object clue) {&#10;        String[] rows = reply.split(&quot;\n&quot;);&#10;&#10;        if (rows.length &lt; 20) {&#10;            return new CheckResult(false,&#10;                &quot;Number of rows in &quot; +&#10;                    &quot;the maze should be &gt;= 20&quot;);&#10;        }&#10;&#10;        int columnsLength = rows[0].length();&#10;&#10;        if (columnsLength / 2 &lt; 20) {&#10;            return new CheckResult(false,&#10;                &quot;Number of columns in &quot; +&#10;                    &quot;the maze should be &gt;= 20&quot;);&#10;        }&#10;&#10;        for (String row : rows) {&#10;            int columnLength = row.length();&#10;            if (columnLength != columnsLength) {&#10;                return new CheckResult(false,&#10;                    &quot;Number of columns &quot; +&#10;                        &quot;should be the same on every row&quot;);&#10;            }&#10;&#10;            for (char c : row.toCharArray()) {&#10;                if (c != '█' &amp;&amp; c != ' ') {&#10;                    return new CheckResult(false,&#10;                        &quot;Found strange symbol in the maze: &quot; + c);&#10;                }&#10;            }&#10;        }&#10;&#10;        return CheckResult.TRUE;&#10;    }&#10;}&#10;" />
+                                <option name="trackChanges" value="true" />
+                                <option name="trackLengths" value="true" />
+                                <option name="userCreated" value="false" />
+                                <option name="visible" value="false" />
+                              </TaskFile>
+                            </value>
+                          </entry>
+                        </map>
+                      </option>
+                      <option name="updateDate" value="1556015820000" />
+                    </EduTask>
+                    <EduTask>
+                      <option name="customPresentableName" />
+                      <option name="descriptionFormat" value="HTML" />
+                      <option name="descriptionText" value="&lt;h2 style=&quot;text-align:center&quot;&gt;Description&lt;/h2&gt;&#10;&#10;&lt;p&gt;You can use any algorithm to do this. Assume that a maze has only a single entrance and one exit. The entrance can be on a side or in the center of the maze. It depends on the algorithm you choose.&lt;/p&gt;&#10;&#10;&lt;p&gt;It should be possible to specify the size of an array that represents the maze. After a user enters the size, the program must print a maze and then stop.&lt;/p&gt;&#10;&#10;&lt;p&gt;The user can enter both dimensions of the maze or only one (entering one dimension results in a square maze). If a dimension has an invalid format (not a number), the program must print a message. If an entered dimension is too small (less than 3), the program must print a different message.&lt;/p&gt;&#10;&#10;&lt;p&gt;Decompose your program into a set of methods to make it easy to understand and add to or edit later.&lt;/p&gt;&#10;&#10;&lt;h2 style=&quot;text-align:center&quot;&gt;Output example&lt;/h2&gt;&#10;&#10;&lt;p&gt;After starting, your program must ask a user to enter the size of the maze, then output a generated maze, and then stop. Here is a simple example of a maze. Notice that height is the first number and width is the second number.&lt;/p&gt;&#10;&#10;&lt;p style=&quot;text-align:center&quot;&gt;&lt;img alt=&quot;&quot; src=&quot;https://ucarecdn.com/3cd8cf65-a9d5-408c-a53f-0486f36a09b7/&quot; /&gt;&lt;/p&gt;&#10;" />
+                      <option name="feedbackLink">
+                        <FeedbackLink>
+                          <option name="link" value="https://hyperskill.org/projects/47/stages/252/implement" />
+                          <option name="type" value="CUSTOM" />
+                        </FeedbackLink>
+                      </option>
+                      <option name="index" value="2" />
+                      <option name="name" value="Generating mazes" />
+                      <option name="record" value="1" />
+                      <option name="status" value="Solved" />
+                      <option name="stepId" value="5394" />
+                      <option name="stepikChangeStatus" value="Info and Content changed" />
+                      <option name="files">
+                        <map>
+                          <entry key="src/maze/Main.java">
+                            <value>
+                              <TaskFile>
+                                <option name="answerPlaceholders">
+                                  <list />
+                                </option>
+                                <option name="highlightErrors" value="true" />
+                                <option name="name" value="src/maze/Main.java" />
+                                <option name="text" value="package maze;&#10;&#10;public class Main {&#10;    public static void main(String[] args) {&#10;        System.out.println(&quot;Hello World!&quot;);&#10;    }&#10;}&#10;" />
+                                <option name="trackChanges" value="true" />
+                                <option name="trackLengths" value="true" />
+                                <option name="userCreated" value="false" />
+                                <option name="visible" value="true" />
+                              </TaskFile>
+                            </value>
+                          </entry>
+                          <entry key="src/maze/Maze.java">
+                            <value>
+                              <TaskFile>
+                                <option name="answerPlaceholders">
+                                  <list />
+                                </option>
+                                <option name="highlightErrors" value="false" />
+                                <option name="name" value="src/maze/Maze.java" />
+                                <option name="text" value="" />
+                                <option name="trackChanges" value="true" />
+                                <option name="trackLengths" value="true" />
+                                <option name="userCreated" value="true" />
+                                <option name="visible" value="true" />
+                              </TaskFile>
+                            </value>
+                          </entry>
+                          <entry key="test/MazeRunnerTest.java">
+                            <value>
+                              <TaskFile>
+                                <option name="answerPlaceholders">
+                                  <list />
+                                </option>
+                                <option name="highlightErrors" value="true" />
+                                <option name="name" value="test/MazeRunnerTest.java" />
+                                <option name="text" value="import maze.Main;&#10;import org.hyperskill.hstest.v4.stage.MainMethodTest;&#10;import org.hyperskill.hstest.v4.testcase.CheckResult;&#10;import org.hyperskill.hstest.v4.testcase.TestCase;&#10;&#10;import java.util.ArrayList;&#10;import java.util.List;&#10;&#10;&#10;class Clue {&#10;    int height;&#10;    int width;&#10;    Clue(int h, int w) {&#10;        height = h;&#10;        width = w;&#10;    }&#10;}&#10;&#10;public class MazeRunnerTest extends MainMethodTest&lt;Clue&gt; {&#10;&#10;    public MazeRunnerTest() throws Exception {&#10;        super(Main.class);&#10;    }&#10;&#10;    @Override&#10;    public List&lt;TestCase&lt;Clue&gt;&gt; generateTestCases() {&#10;        return List.of(&#10;            new TestCase&lt;Clue&gt;()&#10;                .setInput(&quot;6 8&quot;)&#10;                .setAttach(new Clue(6, 8)),&#10;&#10;            new TestCase&lt;Clue&gt;()&#10;                .setInput(&quot;15 65&quot;)&#10;                .setAttach(new Clue(15, 65))&#10;        );&#10;    }&#10;&#10;    private List&lt;String&gt; getMaze(String reply) {&#10;&#10;        List&lt;String&gt; maze = new ArrayList&lt;&gt;();&#10;        String[] rows = reply.split(&quot;\n&quot;);&#10;&#10;        for (String row : rows) {&#10;            boolean possibleMazeRow = true;&#10;            boolean haveSpecialSymbol = false;&#10;            for (char c : row.toCharArray()) {&#10;                if (c == '█') {&#10;                    haveSpecialSymbol = true;&#10;                }&#10;                if (c != '█' &amp;&amp; c != ' ') {&#10;                    possibleMazeRow = false;&#10;                    break;&#10;                }&#10;            }&#10;            if (haveSpecialSymbol &amp;&amp; possibleMazeRow) {&#10;                maze.add(row);&#10;            }&#10;        }&#10;&#10;        return maze;&#10;    }&#10;&#10;    @Override&#10;    public CheckResult check(String reply, Clue clue) {&#10;&#10;        List&lt;String&gt; maze = getMaze(reply);&#10;&#10;        if (maze.size() != clue.height) {&#10;            return new CheckResult(false,&#10;                &quot;Number of rows in the maze is incorrect&quot;);&#10;        }&#10;&#10;        int columnsLength = maze.get(0).length();&#10;&#10;        if (columnsLength / 2 != clue.width) {&#10;            return new CheckResult(false,&#10;                &quot;Number of columns in the maze is incorrect&quot;);&#10;        }&#10;&#10;        for (String row : maze) {&#10;            int columnLength = row.length();&#10;            if (columnLength != columnsLength) {&#10;                return new CheckResult(false,&#10;                    &quot;Number of columns &quot; +&#10;                        &quot;should be the same on every row&quot;);&#10;            }&#10;        }&#10;&#10;        return CheckResult.TRUE;&#10;    }&#10;}&#10;" />
+                                <option name="trackChanges" value="true" />
+                                <option name="trackLengths" value="true" />
+                                <option name="userCreated" value="false" />
+                                <option name="visible" value="false" />
+                              </TaskFile>
+                            </value>
+                          </entry>
+                        </map>
+                      </option>
+                      <option name="updateDate" value="1556015820000" />
+                    </EduTask>
+                    <EduTask>
+                      <option name="customPresentableName" />
+                      <option name="descriptionFormat" value="HTML" />
+                      <option name="descriptionText" value="&lt;h2 style=&quot;text-align:center&quot;&gt;Description&lt;/h2&gt;&#10;&#10;&lt;p&gt;The program should provide a menu with five options:&lt;/p&gt;&#10;&#10;&lt;ol&gt;&#10;    &lt;li&gt;Generate a new maze.&lt;/li&gt;&#10;    &lt;li&gt;Load a maze.&lt;/li&gt;&#10;    &lt;li&gt;Save the maze.&lt;/li&gt;&#10;    &lt;li&gt;Display the maze.&lt;/li&gt;&#10;    &lt;li&gt;Exit.&lt;/li&gt;&#10;&lt;/ol&gt;&#10;&#10;&lt;p&gt;After a maze is generated or loaded from a file, it becomes the current maze that can be saved or displayed.&lt;/p&gt;&#10;&#10;&lt;p&gt;If there is no current maze (generated or loaded), a user should not see the options &lt;strong&gt;save &lt;/strong&gt;and &lt;strong&gt;display the maze&lt;/strong&gt;. If a user chooses an option which requires a file, he must enter a path to the file. You must always check the result of processing files and display user-friendly messages.&lt;/p&gt;&#10;&#10;&lt;p&gt;The program should output the maze to the user only in two scenarios:&lt;/p&gt;&#10;&#10;&lt;ul&gt;&#10;    &lt;li&gt;After &lt;strong&gt;generating &lt;/strong&gt;a maze;&lt;/li&gt;&#10;    &lt;li&gt;After choosing an option &lt;strong&gt;display the maze&lt;/strong&gt;.&lt;/li&gt;&#10;&lt;/ul&gt;&#10;&#10;&lt;p&gt;Your program must successfully handle the following cases:&lt;/p&gt;&#10;&#10;&lt;ul&gt;&#10;    &lt;li&gt;if an incorrect option was chosen, the program must print a message like &lt;strong&gt;&amp;quot;Incorrect option. Please try again&amp;quot;;&lt;/strong&gt;&lt;/li&gt;&#10;    &lt;li&gt;if a file to load a maze does not exist, the program should not stop, it must print a message like &lt;strong&gt;&amp;quot;The file ... does not exist&amp;quot;&lt;/strong&gt;;&lt;/li&gt;&#10;    &lt;li&gt;if a file has an invalid format for a maze, the program should not stop, but it must print a message like &lt;strong&gt;&amp;quot;Cannot load the maze. It has an invalid format&amp;quot;&lt;/strong&gt;.&lt;/li&gt;&#10;&lt;/ul&gt;&#10;&#10;&lt;p&gt;Other cases exist. Try to find them and check for them.&lt;/p&gt;&#10;&#10;&lt;h2 style=&quot;text-align:center&quot;&gt;Output example&lt;/h2&gt;&#10;&#10;&lt;p&gt;After starting, your program must print a menu listing only appropriate options. When a user has chosen an option, the program must perform the corresponding action. Notice, that maze should be a square.&lt;/p&gt;&#10;&#10;&lt;p style=&quot;text-align:center&quot;&gt;&lt;img alt=&quot;&quot; src=&quot;https://ucarecdn.com/3766fdd1-aa9e-4e25-b844-46c56d1b0482/&quot; /&gt;&lt;/p&gt;&#10;&#10;&lt;p&gt;&amp;nbsp;&lt;/p&gt;&#10;&#10;&lt;p&gt;&lt;strong&gt;Note, &lt;/strong&gt;the program should not stop until the user selects the exit option.&lt;/p&gt;&#10;" />
+                      <option name="feedbackLink">
+                        <FeedbackLink>
+                          <option name="link" value="https://hyperskill.org/projects/47/stages/253/implement" />
+                          <option name="type" value="CUSTOM" />
+                        </FeedbackLink>
+                      </option>
+                      <option name="index" value="3" />
+                      <option name="name" value="Saving and loading mazes" />
+                      <option name="record" value="-1" />
+                      <option name="status" value="Failed" />
+                      <option name="stepId" value="5395" />
+                      <option name="stepikChangeStatus" value="Up to date" />
+                      <option name="files">
+                        <map>
+                          <entry key="src/maze/Main.java">
+                            <value>
+                              <TaskFile>
+                                <option name="answerPlaceholders">
+                                  <list />
+                                </option>
+                                <option name="highlightErrors" value="false" />
+                                <option name="name" value="src/maze/Main.java" />
+                                <option name="text" value="package maze;&#10;&#10;public class Main {&#10;    public static void main(String[] args) {&#10;        System.out.println(&quot;Hello World!&quot;);&#10;    }&#10;}&#10;" />
+                                <option name="trackChanges" value="true" />
+                                <option name="trackLengths" value="true" />
+                                <option name="userCreated" value="false" />
+                                <option name="visible" value="true" />
+                              </TaskFile>
+                            </value>
+                          </entry>
+                          <entry key="src/maze/Maze.java">
+                            <value>
+                              <TaskFile>
+                                <option name="answerPlaceholders">
+                                  <list />
+                                </option>
+                                <option name="highlightErrors" value="false" />
+                                <option name="name" value="src/maze/Maze.java" />
+                                <option name="text" value="package maze;&#10;&#10;import java.util.Random;&#10;&#10;/**&#10; * Created by stanislav.matukevich on 25.04.2019.&#10; */&#10;public class Maze {&#10;    public int[][] map;&#10;    private int height;&#10;    private int width;&#10;&#10;    public Maze(int width, int height) {&#10;        this.height = height;&#10;        this.width = width;&#10;        this.map = generate(width, height);&#10;    }&#10;&#10;    public int[][] generate(int width, int height) {&#10;&#10;        int[][] map = new int[height][width];&#10;        Random rng = new Random();&#10;&#10;        for (int i = 0; i &lt; height; i++) {&#10;            for (int j = 0; j &lt; width; j++) {&#10;                //algorithm&#10;&#10;                map[i][j] = rng.nextInt(1+1);&#10;                if (i==0 || i==height-1 || j==0 || j==width-1){ map[i][j]=1;}&#10;&#10;            }&#10;        }&#10;        return map;&#10;    }&#10;&#10;    public void draw() {&#10;        for (int i = 0; i &lt; height; i++) {&#10;            for (int j = 0; j &lt; width; j++) {&#10;                if (map[i][j]==0) {&#10;                    System.out.print(&quot;  &quot;);&#10;                } else if (map[i][j]==1){&#10;                    System.out.print(&quot;XX&quot;);&#10;                }//\u2588&#10;            }&#10;            System.out.println();&#10;        }&#10;    }&#10;}" />
+                                <option name="trackChanges" value="true" />
+                                <option name="trackLengths" value="true" />
+                                <option name="userCreated" value="true" />
+                                <option name="visible" value="true" />
+                              </TaskFile>
+                            </value>
+                          </entry>
+                          <entry key="test/MazeRunnerTest.java">
+                            <value>
+                              <TaskFile>
+                                <option name="answerPlaceholders">
+                                  <list />
+                                </option>
+                                <option name="highlightErrors" value="false" />
+                                <option name="name" value="test/MazeRunnerTest.java" />
+                                <option name="text" value="import maze.Main;&#10;import org.hyperskill.hstest.v4.stage.MainMethodTest;&#10;import org.hyperskill.hstest.v4.testcase.CheckResult;&#10;import org.hyperskill.hstest.v4.testcase.TestCase;&#10;&#10;import java.util.ArrayList;&#10;import java.util.List;&#10;&#10;&#10;class Clue {&#10;    int size;&#10;    Clue(int s) {&#10;        size = s;&#10;    }&#10;}&#10;&#10;public class MazeRunnerTest extends MainMethodTest&lt;Clue&gt; {&#10;&#10;    public MazeRunnerTest() throws Exception {&#10;        super(Main.class);&#10;    }&#10;&#10;    @Override&#10;    public List&lt;TestCase&lt;Clue&gt;&gt; generateTestCases() {&#10;        return List.of(&#10;            new TestCase&lt;Clue&gt;()&#10;                .setInput(&quot;0&quot;),&#10;&#10;            new TestCase&lt;Clue&gt;()&#10;                .setInput(&quot;1\n16\n0&quot;)&#10;                .setAttach(new Clue(16)),&#10;&#10;            new TestCase&lt;Clue&gt;()&#10;                .setInput(&quot;1\n54\n3\ntest_maze.txt\n0&quot;)&#10;                .setAttach(new Clue(54)),&#10;&#10;            new TestCase&lt;Clue&gt;()&#10;                .setInput(&quot;2\ntest_maze.txt\n4\n0&quot;)&#10;                .setAttach(new Clue(54))&#10;        );&#10;    }&#10;&#10;    private List&lt;String&gt; getMaze(String reply) {&#10;&#10;        List&lt;String&gt; maze = new ArrayList&lt;&gt;();&#10;        String[] rows = reply.split(&quot;\n&quot;);&#10;&#10;        boolean foundMaze = false;&#10;&#10;        for (String row : rows) {&#10;            boolean possibleMazeRow = true;&#10;            boolean haveSpecialSymbol = false;&#10;            for (char c : row.toCharArray()) {&#10;                if (c == '█') {&#10;                    haveSpecialSymbol = true;&#10;                }&#10;                if (c != '█' &amp;&amp; c != ' ') {&#10;                    possibleMazeRow = false;&#10;                    break;&#10;                }&#10;            }&#10;            if (haveSpecialSymbol &amp;&amp; possibleMazeRow) {&#10;                maze.add(row);&#10;                foundMaze = true;&#10;            } else if (foundMaze) {&#10;                break;&#10;            }&#10;        }&#10;&#10;        return maze;&#10;    }&#10;&#10;    @Override&#10;    public CheckResult check(String reply, Clue clue) {&#10;&#10;        List&lt;String&gt; maze = getMaze(reply);&#10;&#10;        if (maze.size() != clue.size) {&#10;            return new CheckResult(false,&#10;                &quot;Number of rows in the maze is incorrect&quot;);&#10;        }&#10;&#10;        int columnsLength = maze.get(0).length();&#10;&#10;        if (columnsLength / 2 != clue.size) {&#10;            return new CheckResult(false,&#10;                &quot;Number of columns in the maze is incorrect&quot;);&#10;        }&#10;&#10;        for (String row : maze) {&#10;            int columnLength = row.length();&#10;            if (columnLength != columnsLength) {&#10;                return new CheckResult(false,&#10;                    &quot;Number of columns &quot; +&#10;                        &quot;should be the same on every row&quot;);&#10;            }&#10;        }&#10;&#10;        return CheckResult.TRUE;&#10;    }&#10;}&#10;" />
+                                <option name="trackChanges" value="true" />
+                                <option name="trackLengths" value="true" />
+                                <option name="userCreated" value="false" />
+                                <option name="visible" value="false" />
+                              </TaskFile>
+                            </value>
+                          </entry>
+                        </map>
+                      </option>
+                      <option name="updateDate" value="1556015821000" />
+                    </EduTask>
+                    <EduTask>
+                      <option name="customPresentableName" />
+                      <option name="descriptionFormat" value="HTML" />
+                      <option name="descriptionText" value="&lt;h2 style=&quot;text-align:center&quot;&gt;Description&lt;/h2&gt;&#10;&#10;&lt;p&gt;Modify the menu by adding a new option:&lt;/p&gt;&#10;&#10;&lt;p&gt;1. Generate a new maze.&lt;br /&gt;&#10;    2. Load a maze.&lt;br /&gt;&#10;    3. Save the maze.&lt;br /&gt;&#10;    4. Display the maze.&lt;br /&gt;&#10;    &lt;strong&gt;5. Find the escape.&lt;/strong&gt;&lt;br /&gt;&#10;    0. Exit.&lt;/p&gt;&#10;&#10;&lt;p&gt;This option should be available only if a current maze exists.&lt;/p&gt;&#10;&#10;&lt;p&gt;Do not save the data about the escape path to the files and do not display the escape path when the user chooses the fourth option. Mark the escape with &lt;code&gt;/&lt;/code&gt; symbol.&lt;/p&gt;&#10;&#10;&lt;h2 style=&quot;text-align:center&quot;&gt;Output example&lt;/h2&gt;&#10;&#10;&lt;p&gt;After starting, your program must print a menu listing only appropriate options. When a user has chosen an option, the program must perform the corresponding action.&lt;/p&gt;&#10;&#10;&lt;p style=&quot;text-align:center&quot;&gt;&lt;img alt=&quot;&quot; height=&quot;752&quot; src=&quot;https://ucarecdn.com/eb0c1b40-7a00-4195-9b1f-0d76db01ac19/&quot; width=&quot;254&quot; /&gt;&lt;/p&gt;&#10;&#10;&lt;p&gt;&lt;strong&gt;Note, &lt;/strong&gt;the program should not stop until the user selects the exit option.&lt;/p&gt;&#10;" />
+                      <option name="feedbackLink">
+                        <FeedbackLink>
+                          <option name="link" value="https://hyperskill.org/projects/47/stages/254/implement" />
+                          <option name="type" value="CUSTOM" />
+                        </FeedbackLink>
+                      </option>
+                      <option name="index" value="4" />
+                      <option name="name" value="Escape the maze" />
+                      <option name="record" value="-1" />
+                      <option name="status" value="Unchecked" />
+                      <option name="stepId" value="5396" />
+                      <option name="stepikChangeStatus" value="Up to date" />
+                      <option name="files">
+                        <map>
+                          <entry key="src/maze/Main.java">
+                            <value>
+                              <TaskFile>
+                                <option name="answerPlaceholders">
+                                  <list />
+                                </option>
+                                <option name="highlightErrors" value="false" />
+                                <option name="name" value="src/maze/Main.java" />
+                                <option name="text" value="package maze;&#10;&#10;public class Main {&#10;    public static void main(String[] args) {&#10;        System.out.println(&quot;Hello World!&quot;);&#10;    }&#10;}&#10;" />
+                                <option name="trackChanges" value="true" />
+                                <option name="trackLengths" value="true" />
+                                <option name="userCreated" value="false" />
+                                <option name="visible" value="true" />
+                              </TaskFile>
+                            </value>
+                          </entry>
+                          <entry key="test/MazeRunnerTest.java">
+                            <value>
+                              <TaskFile>
+                                <option name="answerPlaceholders">
+                                  <list />
+                                </option>
+                                <option name="highlightErrors" value="false" />
+                                <option name="name" value="test/MazeRunnerTest.java" />
+                                <option name="text" value="import maze.Main;&#10;import org.hyperskill.hstest.v4.stage.MainMethodTest;&#10;import org.hyperskill.hstest.v4.testcase.CheckResult;&#10;import org.hyperskill.hstest.v4.testcase.TestCase;&#10;&#10;import java.util.ArrayList;&#10;import java.util.List;&#10;&#10;&#10;class Clue {&#10;    int size;&#10;    boolean withPath;&#10;    Clue(int s, boolean wp) {&#10;        size = s;&#10;        withPath = wp;&#10;    }&#10;}&#10;&#10;public class MazeRunnerTest extends MainMethodTest&lt;Clue&gt; {&#10;&#10;    public MazeRunnerTest() throws Exception {&#10;        super(Main.class);&#10;    }&#10;&#10;    @Override&#10;    public List&lt;TestCase&lt;Clue&gt;&gt; generateTestCases() {&#10;        return List.of(&#10;            new TestCase&lt;Clue&gt;()&#10;                .setInput(&quot;0&quot;),&#10;&#10;            new TestCase&lt;Clue&gt;()&#10;                .setInput(&quot;1\n16\n0&quot;)&#10;                .setAttach(new Clue(16, false)),&#10;&#10;            new TestCase&lt;Clue&gt;()&#10;                .setInput(&quot;1\n29\n3\ntest_maze.txt\n0&quot;)&#10;                .setAttach(new Clue(29, false)),&#10;&#10;            new TestCase&lt;Clue&gt;()&#10;                .setInput(&quot;2\ntest_maze.txt\n4\n0&quot;)&#10;                .setAttach(new Clue(29, false)),&#10;&#10;            new TestCase&lt;Clue&gt;()&#10;                .setInput(&quot;1\n32\n3\ntest_maze.txt\n0&quot;)&#10;                .setAttach(new Clue(32, false)),&#10;&#10;            new TestCase&lt;Clue&gt;()&#10;                .setInput(&quot;2\ntest_maze.txt\n4\n0&quot;)&#10;                .setAttach(new Clue(32, false)),&#10;&#10;            new TestCase&lt;Clue&gt;()&#10;                .setInput(&quot;2\ntest_maze.txt\n5\n0&quot;)&#10;                .setAttach(new Clue(32, true))&#10;        );&#10;    }&#10;&#10;    private List&lt;String&gt; getMaze(String reply, boolean withEscape) {&#10;&#10;        List&lt;String&gt; maze = new ArrayList&lt;&gt;();&#10;        String[] rows = reply.split(&quot;\n&quot;);&#10;&#10;        boolean foundMaze = false;&#10;&#10;        for (String row : rows) {&#10;            boolean possibleMazeRow = true;&#10;            boolean haveSpecialSymbol = false;&#10;            for (char c : row.toCharArray()) {&#10;                if (c == '█') {&#10;                    haveSpecialSymbol = true;&#10;                }&#10;                if (!withEscape) {&#10;                    if (c != '█' &amp;&amp; c != ' ') {&#10;                        possibleMazeRow = false;&#10;                        break;&#10;                    }&#10;                } else {&#10;                    if (c != '█' &amp;&amp; c != ' ' &amp;&amp; c != '/') {&#10;                        possibleMazeRow = false;&#10;                        break;&#10;                    }&#10;                }&#10;            }&#10;            if (haveSpecialSymbol &amp;&amp; possibleMazeRow) {&#10;                maze.add(row);&#10;                foundMaze = true;&#10;            } else if (foundMaze) {&#10;                break;&#10;            }&#10;        }&#10;&#10;        return maze;&#10;    }&#10;&#10;    @Override&#10;    public CheckResult check(String reply, Clue clue) {&#10;&#10;        List&lt;String&gt; maze = getMaze(reply, clue.withPath);&#10;&#10;        if (maze.size() != clue.size) {&#10;            return new CheckResult(false,&#10;                &quot;Number of rows in the maze is incorrect&quot;);&#10;        }&#10;&#10;        int columnsLength = maze.get(0).length();&#10;&#10;        if (columnsLength / 2 != clue.size) {&#10;            return new CheckResult(false,&#10;                &quot;Number of columns in the maze is incorrect&quot;);&#10;        }&#10;&#10;        for (String row : maze) {&#10;            int columnLength = row.length();&#10;            if (columnLength != columnsLength) {&#10;                return new CheckResult(false,&#10;                    &quot;Number of columns &quot; +&#10;                        &quot;should be the same on every row&quot;);&#10;            }&#10;        }&#10;&#10;        for (String row : maze) {&#10;            if (row.contains(&quot;/&quot;)) {&#10;                return CheckResult.TRUE;&#10;            }&#10;        }&#10;&#10;        return new CheckResult(false,&#10;            &quot;There is no escape path &quot; +&#10;                &quot;in maze after choosing option 5&quot;);&#10;    }&#10;}&#10;" />
+                                <option name="trackChanges" value="true" />
+                                <option name="trackLengths" value="true" />
+                                <option name="userCreated" value="false" />
+                                <option name="visible" value="false" />
+                              </TaskFile>
+                            </value>
+                          </entry>
+                        </map>
+                      </option>
+                      <option name="updateDate" value="1556015822000" />
+                    </EduTask>
+                  </list>
+                </option>
+                <option name="unitId" value="0" />
+              </FrameworkLesson>
+            </list>
+          </option>
+        </HyperskillCourse>
+      </option>
+    </StudyTaskManager>
+  </component>
+</project>
