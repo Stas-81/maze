@@ -1,7 +1,9 @@
 package maze;
 
 import java.io.File;
+import java.io.FileReader;
 import java.io.FileWriter;
+import java.io.IOException;
 import java.util.Scanner;
 
 /**
@@ -42,15 +44,29 @@ public class Main {
                 maze.draw();
             }
             if (input ==3){
-                File file = new File("mazeMap.txt");
+                File file = new File("test_maze.txt");
                 try (FileWriter writer = new FileWriter(file)){
                     for (int i = 0; i < maze.getHeight(); i++) {
                         for (int j = 0; j < maze.getWidth(); j++) {
-                            writer.write(maze.map[i][j]);
+                            writer.write(String.valueOf(maze.map[i][j]));
                         }
-                        System.out.println();
+                        writer.write("\n");
                     }
                 } catch (Exception e){}
+            }
+            if (input == 2){
+                File file = new File("test_maze.txt");
+                try (FileReader reader= new FileReader(file)){
+                    while (reader.ready()){
+
+                    }
+
+
+                        }
+                        //.write("\n");
+                    }
+                } catch (Exception l){}
+            }
             }
 
         } while (input !=0);

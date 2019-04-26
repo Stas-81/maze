@@ -68,9 +68,9 @@ public class Maze {
         for (int i = 0; i < height; i++) {
             for (int j = 0; j < width; j++) {
                 if (map[i][j]==0) {
-                    System.out.print(".");
+                    System.out.print("  ");
                 } else if (map[i][j]==1){
-                    System.out.print("X");
+                    System.out.print("XX");
                 }//\u2588
             }
             System.out.println();
