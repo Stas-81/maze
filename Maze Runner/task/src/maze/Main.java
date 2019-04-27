@@ -1,8 +1,9 @@
 package maze;
 
-import javax.lang.model.element.NestingKind;
 import java.io.*;
-import java.util.Scanner;
+import java.lang.reflect.Array;
+import java.util.*;
+import java.util.ArrayList;
 
 /**
  * Created by stanislav.matukevich on 25.04.2019.
@@ -11,6 +12,25 @@ public class Main {
     public static void main(String[] args) {
         //System.out.println("Please, enter the size fo maze");
         Scanner scanner = new Scanner(System.in);
+        List<String> name = new ArrayList<>();
+        String str = "12 233 5 6";
+
+        LinkedList<String> list =new LinkedList<>();
+
+                //Arrays.asList(str.split("\\s*,\\s*"));
+        //Integer.parseInt
+        name.add("123");
+        name.add("12");
+        name.add("12");
+        name.add("12");
+        /*for (int i = 0; i <name.size() ; i++) {
+            name.remove();
+
+        }*/
+
+        Collections.sort(name);
+        System.out.println(name);
+
         int width=0;
         int height=0;
         /*try {
