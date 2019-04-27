@@ -1,9 +1,7 @@
 package maze;
 
-import java.io.File;
-import java.io.FileReader;
-import java.io.FileWriter;
-import java.io.IOException;
+import javax.lang.model.element.NestingKind;
+import java.io.*;
 import java.util.Scanner;
 
 /**
@@ -38,13 +36,15 @@ public class Main {
                 System.out.println("Enter the size of a new maze");
                 int size = scanner.nextInt();
                 maze = new Maze(size, size);
+                maze.draw();
                 menu.haveMaze = true;
             }
             if (input == 4 ) {
                 maze.draw();
             }
             if (input ==3){
-                File file = new File("test_maze.txt");
+                String path = scanner.next();
+                File file = new File(path);
                 try (FileWriter writer = new FileWriter(file)){
                     for (int i = 0; i < maze.getHeight(); i++) {
                         for (int j = 0; j < maze.getWidth(); j++) {
@@ -54,19 +54,31 @@ public class Main {
                     }
                 } catch (Exception e){}
             }
-            if (input == 2){
-                File file = new File("test_maze.txt");
-                try (FileReader reader= new FileReader(file)){
-                    while (reader.ready()){
-
-                    }
-
-
+            if (input == 2){ //load maze
+                String path = scanner.next();
+                //System.out.println(path);
+                File file = new File(path);
+                try (BufferedReader reader = new BufferedReader(new FileReader(file))){
+                    String line;
+                    line = reader.readLine();
+                    //System.out.println(line);
+                    int len = line.length();
+                    int[][] loadMap = new int[len][len];
+                    int row=0;
+                    do {
+                        for (int i = 0; i <len ; i++) {
+                            loadMap[row][i]= Integer.parseInt(line.substring(i,i+1));
+                            //System.out.println(loadMap[row][i]);
                         }
-                        //.write("\n");
-                    }
-                } catch (Exception l){}
-            }
+                        row++;
+                        line = reader.readLine();
+                        //System.out.println(line);
+                    } while (line != null);
+                    maze = new Maze(len, len);
+                    maze.map = loadMap;
+
+                        }catch (Exception l){}
+                menu.haveMaze = true;
             }
 
         } while (input !=0);
