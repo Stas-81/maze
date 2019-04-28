@@ -14,7 +14,7 @@ public class Main {
         Menu menu = new Menu();
         //
         maze = new Maze(21, 21);
-        maze.findPath(new Node(0,2,0),new Node(12,11,0));
+        maze.findPath(new Node(0,2,0),new Node(12,11,999));
 
         //
         do {

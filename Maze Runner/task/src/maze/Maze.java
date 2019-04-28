@@ -9,15 +9,6 @@ import java.util.Random;
  */
 public class Maze {
     public int[][] map;
-
-    public int getHeight() {
-        return height;
-    }
-
-    public int getWidth() {
-        return width;
-    }
-
     private int height;
     private int width;
     private Random random;
@@ -31,6 +22,14 @@ public class Maze {
         generate();
     }
     public Maze(){}
+
+    public int getHeight() {
+        return height;
+    }
+
+    public int getWidth() {
+        return width;
+    }
 
     public void generate() {
         for (int i = 0; i < height; i++) {
@@ -92,22 +91,55 @@ public class Maze {
 
     public void findPath (Node a, Node b){
         path.add(a);
-        addAdjNodes(a);
-        System.out.println(path.toString());
+        //addAdjNodes(a);
+        int i=0;
+        do {
+            addAdjNodes(path.get(i));
+            i++;
+            if (i==path.size()) {
+                System.out.println("fail to find path");
+                break;
+            }
+            //System.out.println(i);
+            //path.add(a);
+
+            if (path.contains(b)) {
+                System.out.println("win");
+                break;
+            }
+        } while (i<999);
+
+        path.forEach(el-> System.out.println(el.x+" "+el.y+" v:"+el.value));
+
+        //System.out.println(path.contains(a));
+        //System.out.println(" ");
+        //path.remove(a);
+        //path.forEach(el-> System.out.println(el.x+" "+el.y+" v:"+el.value));
+        //path.forEach(el-> System.out.println(el.x+" "+el.y));
+        //System.out.println(path.toString());
         //addAdjNodes(a);
 
     }
 
     public void addAdjNodes(Node a){
         ArrayList<Node> adj = new ArrayList<>();
-        System.out.println(a.x + " "+a.y);
         if (a.x-1>=0 && map[a.y][a.x-1]==0) {adj.add(new Node(a.x-1,a.y,a.value+1));}
         if (a.x+1<this.width && map[a.y][a.x+1]==0) {adj.add(new Node(a.x+1,a.y,a.value+1));}
         if (a.y-1>=0 && map[a.y-1][a.x]==0) {adj.add(new Node(a.x,a.y-1,a.value+1));}
         if (a.y+1<this.height && map[a.y+1][a.x]==0) {adj.add(new Node(a.x,a.y+1,a.value+1));}
-        //System.out.println(adj.toString());
-        adj.forEach();
-        path.addAll(adj);
+
+        //Node c = new Node(0,2,10);
+        //adj.add(c);
+
+  //      Node c = new Node(1,1,3);
+    //    System.out.println(c.equals(b));
+        for (Node cur:adj){
+            if (!path.contains(cur)){
+                path.add(cur);
+            }
+        }
+        //System.out.println(path.contains(b));
+        //path.addAll(adj);
     }
 
     public boolean findNode (Node b) {
