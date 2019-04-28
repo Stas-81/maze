@@ -1,5 +1,7 @@
 package maze;
 
+import java.util.ArrayList;
+import java.util.List;
 import java.util.Random;
 
 /**
@@ -19,6 +21,7 @@ public class Maze {
     private int height;
     private int width;
     private Random random;
+    ArrayList<Node> path = new ArrayList<>();
 
     public Maze(int width, int height) {
         random = new Random();
@@ -37,6 +40,16 @@ public class Maze {
         }
         Room room = new Room(1,1,width-1,height-1);
         buildMaze(room);
+        int exitY = random.nextInt(room.maxY-3)+1; //set exits
+        int exitX = random.nextInt(room.maxX-3)+1;
+        while (map[exitY][1] == 1){
+            exitY++;
+        }
+        map[exitY][0] =0;
+        while (map[exitX][room.maxX-1] == 1){
+            exitX++;
+        }
+        map[exitX][room.maxX] =0;
     }
 
     public void buildMaze (Room room){
@@ -71,9 +84,33 @@ public class Maze {
                     System.out.print("  ");
                 } else if (map[i][j]==1){
                     System.out.print("XX");
-                }//\u2588
+                }
             }
             System.out.println();
         }
+    }
+
+    public void findPath (Node a, Node b){
+        path.add(a);
+        addAdjNodes(a);
+        System.out.println(path.toString());
+        //addAdjNodes(a);
+
+    }
+
+    public void addAdjNodes(Node a){
+        ArrayList<Node> adj = new ArrayList<>();
+        System.out.println(a.x + " "+a.y);
+        if (a.x-1>=0 && map[a.y][a.x-1]==0) {adj.add(new Node(a.x-1,a.y,a.value+1));}
+        if (a.x+1<this.width && map[a.y][a.x+1]==0) {adj.add(new Node(a.x+1,a.y,a.value+1));}
+        if (a.y-1>=0 && map[a.y-1][a.x]==0) {adj.add(new Node(a.x,a.y-1,a.value+1));}
+        if (a.y+1<this.height && map[a.y+1][a.x]==0) {adj.add(new Node(a.x,a.y+1,a.value+1));}
+        //System.out.println(adj.toString());
+        adj.forEach();
+        path.addAll(adj);
+    }
+
+    public boolean findNode (Node b) {
+        return false;
     }
 }
