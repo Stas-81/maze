@@ -13,8 +13,8 @@ public class Main {
         Maze maze = new Maze();
         Menu menu = new Menu();
         //
-        maze = new Maze(21, 21);
-        maze.findPath(new Node(0,2,0),new Node(12,11,999));
+        //maze = new Maze(21, 21);
+        //maze.findPath(new Node(0,2,0),new Node(12,11,999));
 
         //
         do {
@@ -32,10 +32,18 @@ public class Main {
                 menu.haveMaze = true;
             }
             if (input == 4 ) { //draw current maze
+
+                maze.draw();
+            }
+
+            if (input == 5 ) { //draw current maze with exit path
+                for (int i = 0; i <maze.getWidth() ; i++) {
+                    maze.map[3][i]=2;
+                }
                 maze.draw();
             }
             if (input == 3){
-                System.out.print("Please, enter name of file to save current maze: ");
+                //System.out.print("Please, enter name of file to save current maze: ");
                 String path = scanner.next();
                 File file = new File(path);
                 try (FileWriter writer = new FileWriter(file)){
@@ -48,7 +56,7 @@ public class Main {
                 } catch (Exception e){}
             }
             if (input == 2){ //load maze
-                System.out.print("Please, enter name of file to load2 current maze: ");
+                //System.out.print("Please, enter name of file to load2 current maze: ");
                 String path = scanner.next();
                 File file = new File(path);
                 try (BufferedReader reader = new BufferedReader(new FileReader(file))){

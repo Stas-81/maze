@@ -39,8 +39,9 @@ public class Maze {
         }
         Room room = new Room(1,1,width-1,height-1);
         buildMaze(room);
-        int exitY = random.nextInt(room.maxY-3)+1; //set exits
+        /*int exitY = random.nextInt(room.maxY-3)+1; //set exits
         int exitX = random.nextInt(room.maxX-3)+1;
+
         while (map[exitY][1] == 1){
             exitY++;
         }
@@ -48,7 +49,7 @@ public class Maze {
         while (map[exitX][room.maxX-1] == 1){
             exitX++;
         }
-        map[exitX][room.maxX] =0;
+        map[exitX][room.maxX] =0;*/
     }
 
     public void buildMaze (Room room){
@@ -83,10 +84,13 @@ public class Maze {
                     System.out.print("  ");
                 } else if (map[i][j]==1){
                     System.out.print("XX");
+                } else if (map[i][j]==2){
+                    System.out.print("//");
                 }
             }
             System.out.println();
         }
+        System.out.println();
     }
 
     public void findPath (Node a, Node b){
